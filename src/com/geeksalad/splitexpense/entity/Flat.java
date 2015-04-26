@@ -9,7 +9,7 @@ import javax.jdo.annotations.PrimaryKey;
 
 @PersistenceCapable(identityType = IdentityType.APPLICATION)
 public class Flat {
-	@PrimaryKey
+	@PrimaryKey //
 	@Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
 	Long id;
 	
